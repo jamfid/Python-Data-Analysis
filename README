@@ -1,0 +1,75 @@
+=========================================================================
+ISTRUZIONI per il SECONDO ASSEGNAMENTO aa 2021/22
+========================================================================
+L'assegnamento prevede l'estensione della classe Rubrica
+come specificato nel file assegnamento.pdf e la realizzazione di una interfaccia grafica.
+
+Come procedere:
+(1) modificare opportunamente i metodi la cui intestazione si trova nel file rubrica.py
+    seguendo le indicazioni presenti nel file rubrica.pdf.
+(2) Implementare i due nuovi metodi: suggerisci e suggerimento. 
+
+(3) Implementare una interfaccia grafica che permetta di utilizzare ALMENO due 	
+    funzionalità: "Simple Test" per testare un singolo Produttore ed un singolo
+    Consumatore (classi fornite che non devono essere modificate); e "Test MultiThread", 
+    con il quale si chiede in input il numero di thread Produttori e Consumatori da 
+    avviare, come da specifiche.
+
+(4) Preparare il file rubrica.py per la consegna inserendo nome cognome e contatti dei 
+    componenti del gruppo nell'intestazione.
+(4) consegnare inviando la cartella contenente i files: main.py, rubrica.py, Produttore.py, Consumatore.py, ed eventuali files aggiuntivi a
+            susanna.pelagatti@unipi.it e barbara.guidi@unipi.it
+    con oggetto "622aa: consegna secondo assegnamento"
+
+------------------------------------------------
+Cosa contiene questa cartella Google Drive
+------------------------------------------------
+
+assegnamento.pdf	: file contenente la descrizione dell'assegnamento
+
+rubrica.py 		: file che contiene la definizione dei metodi da modificare e da 
+		          implementare
+
+Produttore.py     : file contenente il comportamento del thread Produttore (NON 
+		    MODIFICARE)
+
+Consumatore.py     : file contenente il comportamento del thread Consumatore (NON 
+		    MODIFICARE)
+
+README			: questo file
+
+
+========================================================================
+ALCUNI SUGGERIMENTI per la realizzazione dell'assegnamento
+========================================================================
+
+E' possibile aggiungere test, che vanno realizzati in un file "moreTest.py"
+da consegnare insieme a rubrica.py.
+
+Se lo si desidera è possibile aggiungere metodi alla classe, tuttavia
+per i metodi aggiuntivi devono essere fornite specifiche chiare
+del funzionamento e test di funzionamento adeguate sempre nel file
+"moreTest.py"
+
+ NOTE IMPORTANTI: LEGGERE ATTENTAMENTE
+---------------------------------------
+
+1) tutti gli elaborati verranno confrontati fra di loro con tool automatici
+   per stabilire eventuali situazioni di PLAGIO. Se gli elaborato sono
+   ragionevolmente simili verranno scartati.
+
+2) Chi in sede di orale risulta palesemente non essere l'autore del software
+   consegnato in uno degli assegnamenti dovra' ripetere l'esame con un nuovo progetto
+
+3) Tutti i comportamenti scorretti ai punti 1 e 2 verranno segnalati
+   ufficialmente al presidente del corso di laurea
+
+----------------------------
+ VALUTAZIONE DELL'ASSEGNAMENTO:
+----------------------------
+
+Gli studenti che consegnano una versione funzionante e ragionevolmente
+corretta dell'assegnamento entro la data di scadenza accumulano un bonus di 2
+punti che verra' sommato al voto finale
+
+La qualita' del codice consegnato per i due assegnamenti sara' valutata complessivamente da 0 a 30 e fara' media con il voto dell'esame orale.
